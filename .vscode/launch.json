@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - Tiangong_Kaiwu",
+        "order": 0
+      },
+      "projectName": "Tiangong_Kaiwu",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - Tiangong_Kaiwu",
+        "order": 1
+      },
+      "projectName": "Tiangong_Kaiwu",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\mcreator\\MCreator.2025.1.Windows.64bit\\MCreator20251\\Workspaces\\Tiangong_Kaiwu\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
